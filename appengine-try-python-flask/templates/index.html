@@ -1,6 +1,65 @@
-<!DOCTYPE = html>
-<html>
-	<body>
-		<p>Hello!</p>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="static/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="static/test.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="static/jquery.zaccordion.min.js"></script>
+        <script src="static/bootstrap.min.js"></script>
+        <script src="static/main.js"></script>
+    </head>
+    <body>
+    	<div class="jumbotron" id="color-this">
+    		<div class="container-fluid">
+			  <h1 id="Timer" class="text-center">--:--:--</h1>
+			  <p class="text-center"><strong id="location">Here</strong>, Right Now.</p>
+			  <!-- <p><a class="btn btn-primary btn-lg" id="london" href="#" role="button">London</a></p> -->
+			  
+			  <div class="row row-centered">
+			  	<div class="col-md-3 col-centered">
+			  		<form class="form-inline" action="/" id="searchForm">
+			  			<div class="form-group">
+					  		<input type="text" name="s" class="form-control col-sm-1" placeholder="Choose a City">
+					  		<input type="submit" style="position: absolute; left: -9999px"/>
+					  	</div>
+				  		<!-- <button id="here" href="#" class="btn btn-default">Here</button> -->
+				  		<a class="btn btn-primary btn-lg" id="here" href="#" role="button">Here</a>
+			  		</form>
+			  	</div>
+			  	<!-- <p><a class="btn btn-primary btn-lg" id="here" href="#" role="button">Here</a></p> -->
+		  	  </div>
+		  	  <div id="json"></div>
+		  	  <div id="utc"></div>
+		  	 <!--  <form action="/" id="searchForm">
+				  <input type="text" name="s" placeholder="Search...">
+				  <input type="submit" onClick="this.form.reset()" value="Search">
+				</form>
+				
+				<div id="result"></div> -->
+			</div>
+		</div>
+    	<!-- <p>HELLO</p>
+        <pre id="response"></pre> -->
+        <!-- <div class="container-fluid">
+        	<div class="row row-centered"> -->
+		        <ul id="zaccordion" class="col-md-12 col-centered">
+					<li id="san-francisco"><img src="static/images/sf.jpg" alt="San Francisco" /><div><strong></strong></div></li>
+					<li id="new-york"><img src="static/images/ny.jpg" alt="New York" /><strong>New York</strong></li>
+					<li id="london"><img src="static/images/london.jpg" alt="London" /><h1 class="verticaltext">London</h1></li>
+					<li id="cairo"><img src="static/images/Cairo.jpg" alt="Cairo" /></li>
+					<li id="beijing"><img src="static/images/Beijing.jpg" alt="Beijing" /></li>
+					<li id="sydney"><img src="static/images/Sydney.jpg" alt="Sydney" /></li>
+				</ul>
+			<!-- </div>
+		</div> -->
+        
+    </body>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Created by Bliu</p>
+      </div>
+    </footer>
 </html>
