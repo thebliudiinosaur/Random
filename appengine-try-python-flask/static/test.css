@@ -31,6 +31,16 @@ margin: -15px 15px 0 0;
 width: 450px;
 }
 
+.btn{
+  margin: 15px;
+  border-radius: 1px;
+}
+
+.form-control{
+  border-radius: 1px;
+  /*box-shadow: inset -1px 0px 1px 1px rgba(0,0,0,0.2);;*/
+}
+
 /*#Timer {
 	text-shadow: 0px 0px 150px #000;
 }
