@@ -48,6 +48,8 @@ function getTimezone(url){
 	});
 }
 
+
+
 // function file_get_contents(url){
 // 	var xhr = new XMLHttpRequest();
 // 	xhr.open("GET", url, true);
@@ -166,6 +168,13 @@ function stopInterval()   //***********IMPORTANT FUNC******************
 
 $(document).ready(function(){
 
+	// $('#searchForm').autocomplete({
+	//     lookup: $countries,
+	//     // onSelect: function (suggestion) {
+	//     //     alert('You selected: ' + suggestion.value + ', ' + suggestion.data);
+	//     // }
+	// });
+
 	$("#searchForm").submit(function(event) {
 
 		// Stop form from submitting normally
@@ -177,6 +186,27 @@ $(document).ready(function(){
 		url = $form.attr("action");
 		$('#location').empty().append(term);
 	});
+
+	// var currencies = [
+	//     { value: 'Afghan afghani', data: 'AFN' },
+	//     { value: 'Albanian lek', data: 'ALL' },
+	//     { value: 'Algerian dinar', data: 'DZD' },
+	//     { value: 'European euro', data: 'EUR' },
+	//     { value: 'Angolan kwanza', data: 'AOA' },
+	//     { value: 'East Caribbean dollar', data: 'XCD' },
+	//     { value: 'Vietnamese dong', data: 'VND' },
+	//     { value: 'Yemeni rial', data: 'YER' },
+	//     { value: 'Zambian kwacha', data: 'ZMK' },
+	//     { value: 'Zimbabwean dollar', data: 'ZWD' },
+	//   ];
+
+	// $("#autocomplete").autocomplete({
+	// 	lookup: currencies,
+	// 	onSelect: function (suggestion) {
+	// 		var thehtml = '<strong>Currency Name:</strong> ' + suggestion.value + ' <br> <strong>Symbol:</strong> ' + suggestion.data;
+	// 		$('#outputcontent').html(thehtml);
+	// 	}
+	// });
 
 	var $width = $(window).width();
 	
