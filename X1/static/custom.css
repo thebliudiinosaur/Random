@@ -1,0 +1,184 @@
+
+/*.btn {
+   background: transparent;
+   color: #000;
+   border: 1px solid #000;
+   font-size: 15px;
+   font-weight: 200;
+   padding:2px 10px;
+   border-radius: 2px;
+}
+
+.btn:hover {
+   color: rgb(255,80,80);
+   background: rgba(255,80,80,0.25);
+   transition: background 500ms;
+   border: 1px solid rgb(255,80,80);
+}
+*/
+
+/*.btn {
+   color: rgb(255,80,80);
+   background: rgba(255,80,80,0.25);
+   
+   border: 1px solid rgb(255,80,80);
+}
+
+.btn:hover {
+	background: transparent;
+   color: #000;
+   border: 1px solid #000;
+   font-size: 15px;
+   font-weight: 200;
+   padding:2px 10px;
+   border-radius: 2px;
+   transition: background 500ms;
+}
+*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+/*.brand{
+	content:url(../images/bhn.png);
+}*/
+#custom-submit {
+	font-size: 15px;
+   	font-weight: 200;
+	border-radius: 0;
+	color:white;
+	background-color: #E91E63;
+}
+
+#custom-submit:hover {
+	background-color: #BF1F60;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel{
+	padding-top:100px;
+	height:74vh;
+	background: url(../images/back2.jpg);
+	background-size: cover;
+	/*background-size: 100%;*/
+    position: relative;
+    padding: 10px;     /* Shows as a border around the carousel */
+}
+
+.form-control{
+	/*padding: 20px;*/
+	margin: 3px;
+	border-radius: 0px;
+}
+
+/*input, textarea {
+  max-width:100%
+}*/
+
+.item{
+	margin:10%;
+}
+
+img{
+	max-width: 100%;
+}
+
+li {
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+
+	font-size: 14px;
+   	font-weight: 400;
+   	text-shadow: ;
+    list-style-type: none;
+    color: gray;
+}
+
+li > strong {
+	color: #FF9800;
+}
+
+
+
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar {
+	height: 50px;
+}
+.navbar-nav > li > a {padding-top:25% !important; padding-bottom:10% !important;}
+.navbar {min-height:100px !important}
+
+.navbar-brand
+{
+    position: absolute;
+    /*width: 100%;*/
+    width: auto;
+    /*left: 1%;*/
+    /*background: url(images/bhn.png);*/
+    padding: auto;
+    text-align: left;
+    margin: auto;
+}
+
+.steps{
+	position: absolute;
+	width: 100%;
+	right: 1%;
+	text-align: right;
+	margin-top: 1%;
+	padding: auto;
+	/*padding-right: 10px;*/
+}
+
+/*  Footer  */
+
+.text-muted{
+	text-align: center;
+}
+
+.container .text-muted {
+  margin: 15px 0;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 100px;
+	background-color: #f5f5f5;
+	border-top-color: #FF9800;
+	border-top-style: solid;
+	border-top-width: 10px;
+}
+
+footer > .container {
+  width: 100%;
+  max-width: 680px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+/*@media (min-width: 400px) and (max-width: 600px){
+	.brand{
+		content:url(../images/bhn-media.png);
+	}
+}*/
+/*
+@media (min-width: 768px) and (max-width: 1000px) {
+   .collapse {
+       display: none !important;
+   }*/
+/*}*/
